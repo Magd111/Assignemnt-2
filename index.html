@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+</head>
+<body >
+
+    <!-- color palette  موقع للالوان المتشابهة و اللائقة على بعض -->
+    
+    <form >
+        <fieldset style="background-color: red;">
+            <legend><h1 style="background-color: cornflowerblue;">Personal Data</h1></legend>
+            <fieldset style="background-color: gold;">
+                <legend><h3 style="background-color: cadetblue;"><br><br>YourName<br><br><br></h3></legend>
+                <table >
+                        <tr>
+                            <td><label for="firstname"> First Name </label></td>
+                            <td> &nbsp;:</td>
+                            <td><input type="text" name="first name" id="firstname" placeholder="ex Magd" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="secondname"> Second Name </label></td>
+                            <td> &nbsp;:</td>
+                            <td><input type="text" name="second name" id="secondname" placeholder="ex Koraby" required></td>
+                        </tr>
+                </table>
+            </fieldset>
+            <br><br><br>
+            <table>
+                    <tr>
+                        <td><label for="yourphone"> Your Phone </label></td>
+                        <td> &nbsp;:</td>
+                        <td><input type="tel" name="your phone" id="yourphone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"> Email </label></td>
+                        <td> &nbsp;:</td>
+                        <td><input type="email" name="Email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password"> Password </label></td>
+                        <td> &nbsp;:</td>
+                        <td><input type="password" name="password" id="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="re-password"> Re-Password </label></td>
+                        <td> &nbsp;:</td>
+                        <td><input type="password" name="re-password" id="re-password"  required></td>
+                    </tr>
+            </table>
+            <br><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+             <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+             <br><br><br>
+            <input type="checkbox" id="Student" name="status" value="student">
+            <label for="Student">Student</label>
+             <br>
+            <input type="checkbox" id="Graduated" name="status" value="graduated">
+            <label for="Graduated">Graduated</label>
+             <br><br><br>
+            <label for="option"></label>
+            <select name="option" id="option" style=" background-color: burlywood;  font-size: 1.5em;">
+                <optgroup label="Group 1">
+                    <option value="1">Option 1.1</option>
+                </optgroup>
+                <optgroup label="Group 2">
+                    <option value="2">Option 2.2</option>
+                    <option value="3">Option 2.3</option>
+                </optgroup>
+                <optgroup label="Group 3" disabled>
+                    <option value="4">Option 3.3</option>
+                    <option value="5">Option 3.4</option>
+                    <option value="6">Option 3.5</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="Nationality"></label>
+            <select name="Nationality" id="Nationality">
+                <option value="syria">Syria</option>
+                <option value="egypt">Egypt</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+            </select>
+            <br> 
+            <input type="submit"  value="Submit">
+                <br><br><br><br><br><br><br><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
